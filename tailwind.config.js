@@ -1,6 +1,9 @@
 module.exports = {
   purge: [
-      'index.html'
+      'index.html',
+      'playlist2.html',
+      'login.html',
+      'login2.html',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -16,39 +19,49 @@ module.exports = {
         emily_pl: '#05070d',
       },
       gray: {
-        home_charcoal1: '#161616',
-        home_charcoal2: '#0e0e0e',
+        elapsed: '#a9a9a9',
         see_more: '#9e9e9e',
-        home_tiles: '#191919',
         artist: '#999999',
-        control_bg: '#151515',
-        border: '#1f1f1f',
         controls: '#999999',
         time_vol: '#323232',
-        elapsed: '#a9a9a9',
         search_field: '#262626',
+        behind_login: '#1F232D',
+        border: '#1f1f1f',
+        home_tiles: '#191919',
+        home_charcoal1: '#161616',
+        control_bg: '#151515',
+        home_charcoal2: '#0e0e0e',
       },
       blue: {
+        mix_title: '#f9fbfc',  // or white?
+        liked_b: '#778a85',
+        fb_icon: '#175DEE',
+        signup: '#4185F2',
+        signup_btn: '#2460C5',
+        liked_a: '#2b1a96',
         new_blue: '#192055',
-        right_main: '#111821',
         dark_teal: '#274767',
         panel1: '#2b3946',
         panel2: '#242a30',
-        mix_title: '#f9fbfc',  // or white?
-        liked_a: '#2b1a96',
-        liked_b: '#778a85',
-        icon: '#175DEE',
+        right_main: '#111821',
       },
       red: {
+        bright: '#cb1823',
         top_upper: '#901b22',
         top_lower: '#3f1113',
         bottom_upper: '#340d0f',
         almost_black: '#0e0e0e',
+
       },
       green: {
         play: '#42ae43',
       },
-
+      yellow: {
+        gold: '#DAA520',
+      },
+      pink: {
+        signup: '#9E2484',
+      },
     },
     extend: {
       gridTemplateColumns: {
