@@ -10,9 +10,9 @@ const ppIcon = document.getElementById('pp-icon');
 let playing = false;
 
 /* Show/Hide dropdown menu */
-emilyButton.addEventListener('click', () => {
-    dropDown.classList.toggle('hidden')
-});
+// emilyButton.addEventListener('click', () => {               // Worked in Chrome but
+//     dropDown.classList.toggle('hidden');                    // Vercel couldn't handle this for some reason
+// });
 
 heartDiv.addEventListener( 'click', () => {
     if(!liked) {
